@@ -35,7 +35,7 @@ svg.icon { width: 16px; height: 16px; flex: 0 0 16px; vertical-align: -3px; fill
 .github-search button { width: 30px; flex: 0 0 30px; color: #c9d1d9; background: transparent; border: 0; font-size: 18px; }
 .header-profile { border: 1px solid #8b949e; padding: 4px 10px; border-radius: 6px; white-space: nowrap; font-size: 14px; }
 .tab-rule { position: absolute; top: 144px; left: 0; right: 0; border-bottom: 1px solid var(--border); }
-.profile-layout { max-width: 1280px; margin: 0 auto; padding: 0 32px; display: grid; grid-template-columns: 296px minmax(0, 1fr); column-gap: 24px; }
+.profile-layout { max-width: 1280px; margin: 0 auto; padding: 0 32px; display: grid; grid-template-columns: 296px minmax(0, 1fr); grid-template-rows: 72px auto auto; column-gap: 24px; }
 .profile-sidebar { grid-column: 1; grid-row: 1 / span 3; margin-top: 40px; min-width: 0; position: relative; }
 .avatar-wrap { position: relative; width: 100%; }
 .avatar-link { display: block; aspect-ratio: 1; }
