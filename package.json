@@ -1,0 +1,11 @@
+{
+  "name": "daoyi-public-profile",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "update": "node tools/update-profile.mjs",
+    "build": "node tools/build.mjs",
+    "check": "node tools/check.mjs && node --test tools/profile.test.mjs"
+  },
+  "engines": { "node": ">=22" }
+}
